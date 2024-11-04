@@ -1,0 +1,33 @@
+{
+  "name": "rollup-vue",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-alias": "^5.1.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-replace": "^6.0.1",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "less": "^4.2.0",
+    "postcss": "^8.4.47",
+    "rollup": "^4.24.3",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-progress": "^1.1.2",
+    "rollup-plugin-serve": "^1.1.1",
+    "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "vue": "^3.5.12"
+  }
+}
